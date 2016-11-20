@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         webview = new WebView(this);
         webview.setWebViewClient(new WebViewClient());
         webview.getSettings().setJavaScriptEnabled(true);
-        webview.loadUrl("https://www.whatismybrowser.com/detect/is-javascript-enabled");
+        webview.loadUrl("https://boiling-meadow-70490.herokuapp.com/");
         setContentView(webview);
     }
 
